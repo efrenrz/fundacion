@@ -1,0 +1,287 @@
+
+
+ .myButton {
+    background-color: green;
+    float: left;
+    height: 200px;
+    overflow:hidden;
+    width:300px;
+}
+.myDiv {
+    background-color:rgba(0,0,0,.6);
+    color: #fff;
+    height: 200px;
+    display: none;
+    padding-top: 70px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    width:300px;
+}
+
+.borde-redondo{
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+}
+.cuadro-ayudalos{
+    height: 150px;
+    padding: 10px 0 10px 0;
+}
+
+.fa-facebook:hover {
+    color: rgba(59, 89, 152, .7);
+  }
+
+  .fa-twitter:hover {
+    color: rgba(0, 172, 237, .7);
+  }
+
+  .fa-google-plus:hover {
+    color: rgba(172, 0, 0, .7);
+}
+
+  .mejor-educacion, .mejor-vivienda, .mejor-salud, .colabora, .en-especie, .en-efectivo, .servicio-social, .voluntariado,.proyectos-productivos, .mejor-alimentacion,.paypal,.voluntariado-internacinoal{
+     padding: 5% 0 5% 0;
+      color: #fff;
+  }
+
+  .mejor-vivienda, .mejor-alimentacion{
+  	background-color: #006699;
+
+  }
+  .mejor-educacion, .mejor-salud, .proyectos-productivos{
+    
+    background-color: #0080B2;
+  }
+
+.colabora a, .colabora:hover, .colabora h2 {
+  color: #666666;
+  text-decoration: none;
+}
+
+.marron{
+  color: #660000;
+}
+
+/* List */
+
+.list-group-item-success, 
+.list-group-item-success:visited{
+  background-color:#DCF9DC;
+  color: #669966;
+}
+.list-group-item-success:hover{
+  background-color: #bafaba;
+}
+
+.list-group-item-info, 
+.list-group-item-info:visited{
+  background-color:#CCFFFF;
+  color: #006699;
+}
+.list-group-item-info:hover{
+  background-color:#9ef8f8;
+}
+
+.list-group-item-warning, 
+.list-group-item-warning:visited{
+  background-color:#E8D9DC;
+  color: #703441;
+}
+.list-group-item-warning:hover{
+  background-color: #e6bfc7;
+}
+
+.list-group-item-danger, 
+.list-group-item-danger:visited {
+  background-color:#F9F7DC;
+  color: #757252;
+}
+.list-group-item-danger:hover{
+  background-color: #f9f5c4;
+}
+
+
+/* end of list */
+
+/*  imagenes */
+
+.image-grayscale{ 
+
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    -webkit-transition: all .4s ease; /* Fade to color for Chrome and Safari */
+    -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+
+}
+
+.image-grayscale:hover { 
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+}
+
+/*  fin imagenes*/
+
+
+/* Texto */
+
+.subrayado{
+  text-decoration: underline;
+}
+
+.colabora-item{
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  color: #666666;
+  height: 200px;
+  padding-top: 30px;
+
+}
+.hover-gris:hover{
+  color: #ababab;
+}
+
+
+.texto-blanco,
+.texto-blanco:hover,
+{
+  color: #fff;
+}
+
+.texto-blanco{
+  color: #fff;
+}
+.texto-blanco{
+  color: #fff;
+}
+
+.flecha-gris-claro i, .flecha-gris-claro  i:hover, .flecha-gris-claro  i:visited{
+  color: #cccccc;
+}
+
+.flecha-azul-claro i, .flecha-azul-claro  i:hover, .flecha-azul-claro  i:visited{
+  color: #3399cc;
+}
+
+.texto-rojo{
+  color: red;
+}
+
+.rojo-claro{
+  color: #CC6666;
+}
+
+.texto-gris-claro{
+  color: #cccccc;
+}
+
+.texto-gris{
+  color: #525252;
+}
+
+/* background */
+.gris-claro{
+  background-color: #f7f7f7;
+}
+
+.fondo-gris-obscuro{
+  background-color: #333333;
+}
+
+
+
+/* custom bootstrap */
+
+.paragraphs{
+    padding: 3%;
+    margin-bottom: 1%;
+    background-color: #e5ebf2;
+    border-left: 3px solid #74afcc;
+}
+
+.paragraphs img{
+    margin-right: 1%;
+}
+
+ .carousel-indicators li {
+     background-color: #999;
+     background-color: rgba(70,70,70,.25);
+ }
+
+ .carousel-indicators .active {
+     background-color: #444;
+ }
+
+
+/* end costom bootsstrap*/
+
+
+.en-especie{
+  background-color: rgba(51, 51, 153, 1);
+}
+
+.en-especie .jumbotron{
+  background-color: rgba(51, 51, 153, .2);
+}
+
+.en-efectivo{
+  background-color: rgba(153, 0, 102, 1);
+}
+
+.en-efectivo .jumbotron{
+  background-color: rgba(153, 0, 102, .2);
+}
+
+.separacion{
+  padding: 5% 0 5% 0;
+}
+.servicio-social{
+  background-color: rgba(51, 153, 0, 1);
+}
+
+.servicio-social .jumbotron{
+  background-color: rgba(51, 153, 0, 1);
+}
+
+.jumbotron {
+  background-color: #fff;
+}
+
+.jumbotron ul li{
+  margin: 2%;
+}
+
+.paypal{
+  background-color: #038E8A;
+}
+
+.paypal .jumbotron{
+  background-color: #038E8A;
+}
+
+
+.voluntariado{
+  background-color: #CC3300;
+}
+
+.voluntariado .jumbotron{
+  background-color: #CC3300;
+}
+
+.voluntariado-internacinoal{
+  background-color: #3c7ba7;
+}
+
+.voluntariado-internacinoal .jumbotron{
+  background-color: #3c7ba7;
+}
+
+@media (max-width: 768px) {
+  .jumbotron ul li {
+    margin: 0px;
+  }
+  .jumbotron{
+    padding: 0;
+  }
+}

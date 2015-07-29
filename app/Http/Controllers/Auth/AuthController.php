@@ -1,10 +1,10 @@
 <?php
 
-namespace fundacionvivemejor\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use fundacionvivemejor\User;
+use App\User;
 use Validator;
-use fundacionvivemejor\Http\Controllers\Controller;
+use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 class AuthController extends Controller

@@ -1,8 +1,8 @@
 <?php
 
-namespace fundacionvivemejor\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use fundacionvivemejor\Http\Controllers\Controller;
+use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller

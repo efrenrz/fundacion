@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'url' => 'http://localhost',
+    'url' => 'http://fundacionvivemejor.dev',
 
     /*
     |--------------------------------------------------------------------------
@@ -140,9 +140,13 @@ return [
         /*
          * Application Service Providers...
          */
-        fundacionvivemejor\Providers\AppServiceProvider::class,
-        fundacionvivemejor\Providers\EventServiceProvider::class,
-        fundacionvivemejor\Providers\RouteServiceProvider::class,
+        App\Providers\AppServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
+
+        Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
+
 
     ],
 
@@ -191,6 +195,11 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+
+        'LaravelLocalization'   => Mcamara\LaravelLocalization\Facades\LaravelLocalization::class,
+
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
 
     ],
 

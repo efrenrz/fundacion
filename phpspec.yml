@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: fundacionvivemejor
+        psr4_prefix: fundacionvivemejor
+        src_path: app
